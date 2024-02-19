@@ -1,0 +1,169 @@
+@media screen and (max-width: 500px){
+
+/*----------------------------header---------------------------->*/
+
+    header { height: 1000px; width: 100vw; background: #19191B; }
+
+                /*menu*/
+
+
+    #menuLink   { display: none;}
+    #menuButton { display: none;}
+
+    #menuLogo     { width: 115px; margin: 0 0 0 6vw; }
+    #menuLogo img { height: 27px; width: 27px; flex-shrink: 0; }
+    #menuLogo h2  { line-height: normal;}
+
+                /*page1*/
+
+
+    #pageOne  { height: 881px; width: 88vw;  margin: 0 6vw 0 6vw; display: block }
+    #siteMenu { height: 115px; width: 100vw; display: flex; justify-content: start; margin-top: 0; }
+
+    #pageOneBoxOne { height: 409px; width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        border-collapse: collapse;
+        background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%); }
+
+    #pageOneBoxAll  { height: 315px; width: 100vw;  flex-shrink: 0; margin-top: 25px; }
+    #pageOneTextA   { height: 189px; width: 88vw; }
+    #pageOneTextA p { font-size: 42px; line-height: 150%; }
+
+    #pageOneTextB   { height: 96px; width: 88vw; }
+    #pageOneTextB p { font-size: 16px; line-height: 150%; width: 95%; margin: 30px 0 0 0; }
+
+    #pageOneButton        { height: 44px; width: 166px; }
+    #pageOneButton button { height: 44px; width: 166px; font-size: 16px; }
+
+    #pageOneBoxTwo     { height: 406px; width: 106vw; flex-shrink: 0;  position: relative; left: -6vw; margin-top: 100px; }
+    #pageOneBoxTwo img { height: auto;  width: 106vw; flex-shrink: 0; max-height: 406px; max-width: 375px; min-width: 0; }
+
+/*----------------------------main----------------------------*/
+
+                /*page2*/
+
+
+    #pageTwoBox { height: 600px; width: 88vw;  margin: 0 6vw 0 6vw; }
+
+    #pageTwoBoxAll { height: 600px; width: 88vw; display: flex; flex-direction: column;}
+
+    #pageTwoBoxOne { height: 420px; width: 88vw; display: flex; flex-direction: column; }
+    #pageTwoBoxA   { height: 108px; width: 88vw; margin-right: 0; margin-top: 130px }
+    #pageTwoBoxA p { width: 88vw; font-size: 36px; line-height: 150%; }
+
+    #pageTwoBoxB   { height: 48px;  width: 88vw; margin-top: 30px; }
+    #pageTwoBoxB p { font-size: 16px; font-weight: 400; line-height: 150%;  }
+
+    #pageTwoBoxTwo     { height: 184px; width: 88vw; margin-top: 50px }
+    #pageTwoBoxTwo img { height: auto; width: 100%; flex-shrink: 0; max-width: 327px; max-height: 406px; }
+    #pageTwoBoxTwo img { width: 88vw; max-height: 184px; min-width: 50px; max-width: 327px; flex-shrink: 0;}
+
+                /*page3*/
+
+
+    #pageThreeBox {
+        height: 2182px;
+        width: 88vw;
+        margin: 0 6vw 0 6vw;
+        display: flex;
+        flex-direction: column;
+        background: none; }
+
+    #pageThreeBoxAll {
+        height: 2182px;
+        width: 88vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 140px ;
+        justify-content: normal; }
+
+    #pageThreeBoxA   { height: 108px; width: 88vw;  text-align: left; margin: 0 0 -22px 0; }
+    #pageThreeBoxB   { height: 1884px; width: 88vw; margin: 50px 0 50px 0; position: static; }
+
+    #pageThreeBoxA p { width: 88vw; font-size: 36px; line-height: 150%; display: flex; justify-content: left; }
+
+    .pageThreeContainer {
+        height: 198px;
+        width: 88vw;
+        text-align: center;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+
+    .pageThreeBlock    {  height: 834px; display: flex;  flex-direction: column; flex-shrink: 1; align-items: center }
+    #pageThreeBlockTwo {  height: 834px; margin-top: 120px; }
+
+    .pageThree1P { height: 30px; width: 200px; font-size: 24px; letter-spacing: -0.75px; }
+    .pageThree2P { height: 56px; width: 70vw; max-width: 250px; font-size: 16px; line-height: 28px; }
+
+                /*page4*/
+
+
+    #pageFourBox { height: 821px; width: 88vw; margin: 0 6vw 0 6vw; display: flex; }
+
+    #pageFourBoxB { display: none; }
+    #pageFourBoxC { display: none; }
+
+    .pageFourBoxSize    { height: 100vh; width: 100vw; max-width: 375px; max-height: 295px; }
+    #pageFourBoxTwo img { height: 88vh; width: 87vw;  max-width: 327px; max-height: 245px; }
+    #pageFourBoxAll     { height: 821px; width: 100%; margin-top: 140px; }
+
+    #pageFourBoxOne   { height: 108px; width: 88vw; max-width: 327px; }
+    #pageFourBoxOne p { font-size: 36px; font-weight: 400; line-height: 150%; }
+
+    #pageFourBoxTwo { width: 100vw; margin: 50px -6vw 0 -6vw ; justify-content: center; }
+
+                 /*page5*/
+
+
+    #pageFiveBox { height: 416px; }
+
+    #pageFiveBoxAll {
+        height: 256px;
+        width: 88vw;
+        margin: 80px 6vw 0 6vw;
+        display: flex;
+        flex-direction: column;
+        align-items: start; }
+
+    #pageFiveBoxOne   { height: 162px; width: 88vw; max-width: 327px; }
+    #pageFiveBoxOne p { font-size: 36px; line-height: 150%; }
+
+    #pageFiveBoxTwo        { height: 44px; width: 166px; margin: 0; }
+    #pageFiveBoxTwo button { height: 44px; width: 166px; flex-shrink: 0; font-size: 16px; border-radius: 4px; }
+
+    /*---------------------------footer----------------------------*/
+
+
+    footer { height: 496px; width: 100vw; }
+
+    #pageFooterBox {
+        height: 306px;
+        width: 66vw;
+        max-width: 254px;
+        margin: 140px 17vw 0 17vw;
+        display: flex;
+        flex-direction: column; }
+
+    #pageFooterIcon     { height: 35px; width: 115px; }
+    #pageFooterIcon img { height: 27px; width: 27px;  }
+
+    #pageFooterBoxMobile   { display: flex; flex-direction: column; margin: 40px 0 40px 0; }
+    #pageFooterBoxMobile p {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.70);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        text-transform: capitalize;
+        margin: 0; }
+    #pageFooterBoxMobileB { margin: 40px 0 40px 0; }
+
+    #pageFooterDate   { height: 40px; width: 285px; }
+    #pageFooterDate p { font-size: 18px; line-height: 28px; letter-spacing: -0.5px; margin: 0; }
+
+    #pageFooterIcon h2  { margin: 0 0 0 8px; }   }

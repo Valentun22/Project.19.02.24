@@ -1,0 +1,270 @@
+body { margin: 0; overflow-x:hidden;}
+
+.positionFlexFB { display: flex; justify-content: space-between; align-items: center; }
+.positionCenter { display: flex; justify-content: center; align-items: center; }
+.positionFlexD  { display: flex; flex-direction: column; }
+
+body p { font-family: "Lato", sans-serif; }
+
+/*---------------------header--------------------*/
+
+header { height: 965px; width: 100vw; background: #19191B radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%); }
+#siteMenu { height: 120px; width: 100vw; display: flex; justify-content: space-between; }
+
+                      /*menu*/
+
+#menuLogo   { width: 372px; }
+#menuButton { width: 397px; }
+#menuLink   { width: 46vw;  }
+
+#menuLink, #menuButton, #menuLogo { margin-top: 15px; }
+
+#menuLogo img { height: 40px; width: 40px; }
+#menuLogo h2 {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 8px; }
+
+#menuLink a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 20px 0 20px; }
+
+#menuButton button {
+    width: 157px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid;
+    backdrop-filter: blur(1px);
+    background: #19191B;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.5px; }
+
+                      /*page1*/
+
+#pageOne       { height: 956px; width: 88vw;  margin: 0 53px 0 120px; display: flex; justify-content: space-between  }
+
+#pageOneBoxAll { height: 393px; width: 40vw;  flex-shrink: 0; margin-top: 123px; }
+#pageOneBoxOne { height: 502px; width: 50vw;  display: flex; flex-direction: column; justify-content: center; border-collapse: collapse;  }
+#pageOneBoxTwo { height: 713px; width: 656px; flex-shrink: 0;  position: relative; top: -40px; }
+
+#pageOneTextA   { height: 252px; width: 582px; }
+#pageOneTextA p {
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1em;}
+
+#pageOneTextB   { height: 117px; width: 536px; }
+#pageOneTextB p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.657px;}
+
+#pageOneButton { height: 58px; width: 204px; }
+#pageOneButton button {
+    height: 58px;
+    width: 204px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    background: #5454D4;
+    border-radius: 4px;
+    margin: 50px 0 0 0;
+    border: none; }
+
+#pageOneBoxTwo img { height: auto; width: 45.5vw; max-height: 713px; min-width: 500px; max-width: 656px; flex-shrink: 0; }
+
+/*----------------------------main----------------------------*/
+
+                           /*page2*/
+
+main { width: 100vw; background: #19191B; }
+
+#pageTwoBox { height: 894px;; width: 83vw; margin: 0 120px 0 120px; display: flex; flex-direction: column;  }
+
+#pageTwoBoxOne { display: flex; margin-bottom: 21px; justify-content: space-between; }
+
+#pageTwoBoxA   { height: 140px; width: 40vw; min-width: 450px; margin-right: 23px; }
+#pageTwoBoxA p {
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    margin: 0}
+
+#pageTwoBoxB   { height: 78px;  width: 40vw; }
+#pageTwoBoxB p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+    margin: 0; }
+
+#pageTwoBoxTwo     { height: 670px; width: 100%; display: flex; justify-content: center; margin: 50px 0 13px 0; }
+#pageTwoBoxTwo img { height: 100%; width: 83vw; max-height: 670px; min-width: 700px; max-width: 1200px; flex-shrink: 0;}
+
+                              /*page3*/
+
+#pageThreeBox    {
+    height: 1024px;
+    width: 83vw;
+    margin: 0 120px 0 120px;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+    justify-content: center; }
+
+#pageThreeBoxAll { height: 709px; width: 83vw; display: flex; flex-direction: column; justify-content: center; margin-top: 137px ; }
+
+#pageThreeBoxB   { height: 527px; width: 78vw; margin-top: 98px; display: block; position: relative; left: 45px; }
+#pageThreeBoxA   { height: 140px; width: 48vw; min-width: 360px; text-align: center; margin: auto; }
+#pageThreeBoxA p {
+    color: #FFF;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    margin: 0; }
+
+.pageThreeContainer {
+    height: 14.5vh;  min-height: 205px;
+    width: 20.5vw;  max-width: 300px;  min-width: 130px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+
+.pageThreeIconSize  { height: 69px;  width: 69px; min-height: 69px; min-width: 69px; border-radius: 35px; }
+#pageThreeBoxB img  { height: 32px;  width: 32px; }
+
+#pageThree1Icon { background-color: rgba(84, 84, 212, 0.1);  }
+#pageThree2Icon { background-color: rgba(240, 64, 55, 0.1);  }
+#pageThree3Icon { background-color: rgba(254, 220, 90, 0.1); }
+#pageThree4Icon { background-color: rgba(254, 220, 90, 0.1); }
+#pageThree5Icon { background-color: rgba(84, 84, 212, 0.1);  }
+#pageThree6Icon { background-color: rgba(84, 84, 212, 0.1);  }
+
+.pageThreeBlock {display: flex; justify-content: space-between; flex-shrink: 1; }
+#pageThreeBlockTwo { margin-top: 121px; }
+
+.pageThree1P {
+    font-family: "Lato", sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    margin: 20px 0 24px 0; }
+
+.pageThree2P {
+    font-family: "Lato", sans-serif;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+    margin: 0 }
+
+                              /*page4*/
+
+#pageFourBox { height: 869px; width: 83vw; margin: 0 120px 0 120px; display: flex; flex-direction: column; }
+
+.pageFourBoxSize    { height: 301px; width: 26vw; max-width: 384px; border-radius: 14px; background: #1E1E20;}
+#pageFourBoxTwo img { height: 253px; width: 23vw; max-width: 336px; flex-shrink: 0; border-radius: 12px;}
+#pageFourBoxAll     { height: 532px; width: 100%; margin-top: 77px; }
+
+#pageFourBoxOne   { height: 70px; width: 48vw; }
+#pageFourBoxOne p {
+    color: #FFF;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0; }
+
+#pageFourBoxTwo { width: 83vw; display: flex; margin-top: 185px; justify-content: space-between; }
+#pageFourBoxB   { margin: 0 1.5vw 0 1.5vw }
+
+                              /*page5*/
+
+#pageFiveBox {
+    height: 506px;
+    width: 100vw;
+    background: rgba(30, 30, 32, 0.50);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; }
+
+#pageFiveBoxAll { height: 144px; width: 83vw; margin: 187px 120px 0 120px; }
+
+#pageFiveBoxOne   { height: 144px; width: 56vw; min-width: 360px; }
+#pageFiveBoxOne p {
+    color: #FFF;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0; }
+
+#pageFiveBoxTwo    { height: 60px; width: 201px; margin: 0; }
+#pageFiveBoxTwo button {
+    height: 60px;
+    width: 201px;
+    color: #FFF;
+    text-align: center;
+    background: #5454D4;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    border-radius: 5px; }
+
+/*---------------------------footer----------------------------*/
+
+footer { height: 190px; width: 100vw; background: #19191B; }
+
+#pageFooterBoxMobile { display: none; }
+
+#pageFooterBox { height: 40px; width: 83vw; margin: 50px 120px 0 120px; display: flex;}
+
+#pageFooterIcon     { height: 40px; width: 140px; }
+#pageFooterIcon img { height: 40px; width: 40px;  }
+#pageFooterIcon h2  {
+    color: #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 8px; }
+
+#pageFooterDate   { height: 40px; width: 285px; }
+#pageFooterDate p {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.5px; }
